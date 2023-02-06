@@ -14,6 +14,7 @@
         <!-- Custom Favicon -->
         <link rel="shortcut icon" href="img/jr-logo.jpg" type="image/x-icon">
     </head>
+    <script src="alerts.js"></script>
     <body>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -32,7 +33,10 @@
                             <a class="nav-link" href="#portafolio">PORTAFOLIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#gallery">PROYECTOS</a>
+                            <a class="nav-link" href="#portafolio">PROYECTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#redes">REDES SOCIALES</a>
                         </li>
                     </ul>
                 </div>
@@ -66,11 +70,6 @@
                                         <li class="list-group-item">Me gusta tocar la guitarra y la batería.</li>
                                     </ul>
                                 </p>
-                                <!-- <a href="#" class="btn btn-primary d-block" type="button">Instagram <i class="fa fa-instagram"></i></a>
-                                <br>
-                                <a href="#" class="btn btn-primary d-block" type="button">Facebook <i class="fa fa-facebook"></i></a>
-                                <br>
-                                <a href="#" class="btn btn-primary d-block" type="button">Tik Tok <i class="fab fa-tiktok"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -94,38 +93,82 @@
                                 </small>
                             </p>
                         </div>
-                    </div>
+                    </div>                    
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">Descripción del proyecto.</p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        Ir al repositorio <i class="fa fa-github"></i>
+                                    </a>
+                                </small>
+                            </p>
                         </div>
-                    </div>
+                    </div>                    
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                                content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Descripción del proyecto.</p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        Ir al repositorio <i class="fa fa-github"></i>
+                                    </a>
+                                </small>
+                            </p>
                         </div>
+                    </div>                    
+                </div>
+            </section>
+            <br>
+            <section id="redes">
+                <h1 class="text-center">Mis redes sociales </h1>
+                <div class="d-flex justify-content-between row">
+                    <div class="col-md-3">
+                        <a href="https://instagram.com/juliandrojas14" target="_blank" class="btn btn-primary d-block" type="button" id="instagram">
+                            <i class="fa fa-instagram"></i> Instagram 
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.facebook.com/juliandrojasarchila/" target="_blank" class="btn btn-primary d-block" type="button" id="facebook">
+                            <i class="fa fa-facebook"></i> Facebook
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.tiktok.com/@soyjulianrojas?_t=8Zdup3ug2II&_r=1" target="_blank" class="btn btn-primary d-block" type="button" onclick="showAlert()">
+                            <i class="fab fa-tiktok"></i> Tik Tok
+                        </a>
                     </div>
                 </div>
             </section>
-            <section id="blog"></section>
-            <section id="contacto"></section>
-            <section id="perfiles"></section>
-            <section id="habilidades"></section>
+            <br>
+            <section id="piercings">
+                <a href="#" target="_blank" class="btn btn-primary d-block" type="button" id="facebook">
+                    PRÓXIMO PROYECTO
+                </a>
+            </section>
         </div>
         <br>
         <!-- Footer -->
-        <!-- <footer class="bg-dark text-white">
-            <div class="footer-copyright text-center py-3">
-                Wukong Tattoo Studio
+        <footer class="bg-dark text-white">
+            <div class="footer-copyright text-center py-2">
+                <p id="year"></p>
             </div>
-        </footer> -->
+        </footer>
+        <script>
+            function showAlert() {
+                alert("Hola mundo");
+            }
+            function updateYear() {
+                var year = new Date().getFullYear();
+                document.getElementById("year").innerHTML = year;
+            }
+            updateYear();
+        </script>          
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
