@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Description" content="Enter your description here"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>JULIAN D ROJAS</title>
+        <!-- CDN Font Awesome Icons -->
+        <script src="https://kit.fontawesome.com/857f3fe573.js" crossorigin="anonymous"></script>
+        <!-- Custom Favicon -->
+        <link rel="shortcut icon" href="img/jr-logo.jpg" type="image/x-icon">
+    </head>
+    <script src="alerts.js"></script>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">MI PÁGINA PERSONAL</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu de navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#info">SOBRE MI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portafolio">PORTAFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#redes">REDES SOCIALES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Jumbotron -->
+        <section class="jumbotron" id="home">
+            <h1 class="display-4 text-center">Mi nombre es JULIAN DAVID ROJAS ARCHILA</h1>
+            <hr class="my-4">
+            <p class="text-center">Bienvenido a mi página personal <i class="fa fa-hand-point-down" area-hidden="true"></i></p>
+            <!-- <a class="btn btn-primary btn-lg" href="https://wa.link/5p1bay" role="button" target="_blank">IR A WHATSAPP <i class="fa fa-whatsapp"></i></a> -->
+        </section>
+        <div class="container">
+            <section id="info">
+                <h1 class="text-center">Un poco sobre mí </h1>
+                <br>
+                <div class="row d-flex align-items-center">
+                    <div class="col-12 col-sm-6">
+                        <img src="img/fotoPersonal.jpg" class="img-fluid" alt="Foto Personal">
+                    </div>
+                    <div class="artist-presentation col-12 col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Un poco de mi</h5>
+                                <p class="card-text">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">Soy técnico en Contabilidad por el SENA (Servicio Nacional de Aprendizaje).</li>
+                                        <li class="list-group-item">Estoy en contínuo aprendizaje.</li>
+                                        <li class="list-group-item">Me encantan las series.</li>
+                                        <li class="list-group-item">Tengo habilidad para las matemáticas.</li>
+                                        <li class="list-group-item">Me gusta tocar la guitarra y la batería.</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section id="portafolio">
+                <h1 class="text-center">Mi Portafolio.</h1>
+                <h2 class="text-center">Estos son algunos de los proyectos que he hecho.</h2>
+                <div class="card-deck text-center">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">Descripción del proyecto.</p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        Ir al repositorio <i class="fa fa-github"></i>
+                                    </a>
+                                </small>
+                            </p>
+                        </div>
+                    </div>                    
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">Descripción del proyecto.</p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        Ir al repositorio <i class="fa fa-github"></i>
+                                    </a>
+                                </small>
+                            </p>
+                        </div>
+                    </div>                    
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Descripción del proyecto.</p>
+                            <p class="card-text">
+                                <small class="text-muted">
+                                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                                        Ir al repositorio <i class="fa fa-github"></i>
+                                    </a>
+                                </small>
+                            </p>
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+            <br>
+            <section id="redes">
+                <h1 class="text-center">Mis redes sociales </h1>
+                <div class="d-flex justify-content-between row">
+                    <div class="col-md-3">
+                        <a href="https://instagram.com/juliandrojas14" target="_blank" class="btn btn-primary d-block" type="button" id="instagram">
+                            <i class="fa fa-instagram"></i> Instagram 
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.facebook.com/juliandrojasarchila/" target="_blank" class="btn btn-primary d-block" type="button" id="facebook">
+                            <i class="fa fa-facebook"></i> Facebook
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.tiktok.com/@soyjulianrojas?_t=8Zdup3ug2II&_r=1" target="_blank" class="btn btn-primary d-block" type="button" onclick="showAlert()">
+                            <i class="fab fa-tiktok"></i> Tik Tok
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <section id="piercings">
+                <a href="#" class="btn btn-primary d-block" type="button">
+                    PRÓXIMO PROYECTO
+                </a>
+            </section> 
+        </div>
+        <br>
+        <!-- Footer -->
+        <footer class="bg-dark text-white">
+            <div class="footer-copyright text-center py-2">
+                <p id="year"></p>
+            </div>
+        </footer>
+        <script>
+            function showAlert() {
+                alert("Hola mundo");
+            }
+            function updateYear() {
+                var year = new Date().getFullYear();
+                document.getElementById("year").innerHTML = year;
+            }
+            updateYear();
+        </script>          
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    </body>
+</html>
