@@ -27,7 +27,10 @@
 
   <body>
     <header></header>
-    <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark">
+    <nav
+      class="navbar navbar-expand-lg bg-dark sticky-top"
+      data-bs-theme="dark"
+    >
       <div class="container-fluid">
         <a class="navbar-brand" href="#inicio">Inicio</a>
         <button
@@ -44,15 +47,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="sobre-mi"
+              <a class="nav-link active" aria-current="page" href="#sobre-mi"
                 >Sobre mi</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Habilidades</a>
+              <a class="nav-link" href="#portafolio">Portafolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link disabled" aria-disabled="true">Disabled</a>
@@ -68,11 +71,10 @@
           <div class="container-fluid py-5">
             <h1 class="display-5 fw-bold">Bienvenidos a mi página web</h1>
             <p class="col-md-8 fs-4">
-              Soy un apasionado desarrollador web con experiencia en
-              el desarrollo backend. Bienvenido a mi página web, donde comparto mi
-              trabajo y conocimientos en el mundo del desarrollo web.
+              Soy un apasionado desarrollador web con experiencia en el
+              desarrollo backend. Bienvenido a mi página web, donde comparto mi
+              trabajo y conocimientos.
             </p>
-            <!-- <button class="btn btn-primary btn-lg" type="button">Example button</button> -->
           </div>
         </div>
       </section>
@@ -80,12 +82,94 @@
       <section id="sobre-mi" class="container">
         <h1 class="text-center">Sobre mi</h1>
         <div class="row">
-            <div class="col-md-6">
-                <img src="img/fotoPersonal.jpg" class="img-fluid rounded-top" alt="">
+          <div class="col-md-6">
+            <img
+              src="img/fotoPersonal.jpg"
+              class="img-fluid rounded-top"
+              alt=""
+            />
+          </div>
+          <div class="col-md-6">
+            Soy estudiante de ingeniería de sistemas en las Unidades
+            Tecnológicas de Santander, graduado de la Tecnología en Desarrollo
+            de Sistemas Informáticos de la misma institución.
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- Portafolio -->
+      <section id="portafolio" class="container">
+        <h1 class="text-center">Portafolio</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="img/rickAndMortyImage.png"
+                class="card-img-top w-100"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Galería Usando la API de Rick & Morty
+                </h5>
+                <p class="card-text">
+                  Ejemplo sencillo de consumo de una API, en este caso la de
+                  Rick & Morty.
+                </p>
+                <a
+                  href="https://github.com/juliandrojas/galleryRickAndMortyAPI"
+                  target="_blank"
+                  class="btn btn-primary btn-block"
+                  >Ver repositorio <i class="fab fa-github"></i
+                ></a>
+              </div>
             </div>
-            <div class="col-md-6">
-                Soy estudiante de ingeniería de sistemas en las Unidades Tecnológicas de Santander.
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/logo_farmacovigilancia.jpeg" class="card-img-top w-100" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Página Web Farmacovigilancia y Tecnovigilancia
+                </h5>
+                <p class="card-text">
+                  Página web sencilla usando HTML y Bootstrap, con información
+                  sobre la Farmacovigilancia y la Tecnovigilancia.
+                </p>
+                <a
+                  href="https://github.com/juliandrojas/pagina_web_farmacovigilancia_tecnovigilancia"
+                  target="_blank"
+                  class="btn btn-primary btn-block"
+                  >Ver repositorio <i class="fab fa-github"></i
+                ></a>
+              </div>
             </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a longer card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
